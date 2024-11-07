@@ -14,7 +14,7 @@
         {products.map((product, index) => (
             <Link to={`/Product/${product.id}`} className='text-decoration-none'>
             <div key={product.id} className="card mx-3 mt-3 mb-3" style={{ width: "15rem", height:"100vh" }}>
-              <div className="image">
+              <div className="image mt-2">
                 <img src={product.imageUrl} alt={product.name} className="card-img-top img-fluid product-image" />
               </div>
               <div className="card-body">
